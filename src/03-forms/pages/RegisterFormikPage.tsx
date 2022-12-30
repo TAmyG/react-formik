@@ -1,14 +1,9 @@
 import { Form, Formik } from 'formik';
-import { FormEvent } from 'react'
-import { useForm } from '../hooks/useForm'
 import '../styles/styles.css'
 import * as Yup from 'yup';
 import { MyTextInput } from '../components';
 
 export const RegisterFormikPage = () => {
-
-
-
 
     return (
         <div className='body'>
