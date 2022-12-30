@@ -7,6 +7,7 @@ import { RegisterPage } from './03-forms/pages/RegisterPage'
 import App from './App'
 import './index.css'
 import { FormikAbstractation } from './03-forms/pages/FormikAbstractation';
+import { RegisterFormikPage } from './03-forms/pages/RegisterFormikPage'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     {/* <FormikBasicPage /> */}
     {/* <FormikYupPage /> */}
     {/* <FormikComponents /> */}
-    <FormikAbstractation />
+    {/* <FormikAbstractation /> */}
+    <RegisterFormikPage />
   </React.StrictMode>,
 )
